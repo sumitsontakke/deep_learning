@@ -1,7 +1,3 @@
-Here’s a **markdown-formatted summary** capturing the key moments and concepts in the journey from the Perceptron to modern Artificial Neural Networks (ANNs):
-
----
-
 # 🧠 The Evolution of Artificial Neural Networks (ANNs)
 
 ## 🌟 1. Rosenblatt's Perceptron (1958)
