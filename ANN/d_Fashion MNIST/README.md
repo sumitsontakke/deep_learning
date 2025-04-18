@@ -1,0 +1,1 @@
+[Details about Tensorflow's Fashion MNIST Dataset](https://www.tensorflow.org/datasets/catalog/fashion_mnist)

@@ -1,0 +1,29 @@
+[ Define Search Space ]
+        |
+        v
++---------------------------+
+| units1: hp.Int(16–128)   |
+| units2: hp.Int(8–64)     |
+| lr: hp.Choice([...])     |
++---------------------------+
+        |
+        v
+[ Randomly Select Hyperparameters ]
+        |
+        v
+[ build_model(hp) ]
+        |
+        v
+[ Train on Training Data ]
+        |
+        v
+[ Evaluate on Validation Data ]
+        |
+        v
+[ Repeat for N Trials (max_trials) ]
+        |
+        v
++----------------------------------+
+|   Best Hyperparameters Found     |
+|   Best Model Weights Stored      |
++----------------------------------+
