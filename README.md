@@ -86,3 +86,12 @@ We’ll tackle 1–2 problems from each of these:
 - 📦 [Kaggle] Leaf Classification (multiclass)
 
 ---
+# CNN Experimentations
+Option | Ideas
+--- | ---
+✨ Add More Conv Blocks | Add one more Conv2D(256) block if you're confident
+📉 Add EarlyStopping | Avoid overfitting
+🧪 Batch size | Try 32, 64
+🎯 Learning Rate | Use Adam(lr=0.0005) or a scheduler
+🔍 Data Augmentation | Huge for CIFAR-100 — will boost accuracy
+📈 Try more epochs | Go 50–100 with patience & EarlyStopping
